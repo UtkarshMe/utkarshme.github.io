@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>elementary os on Coditva</title>
+    <link>utkarshme.github.io/tags/elementary-os/</link>
+    <description>Recent content in elementary os on Coditva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 04 Mar 2017 08:08:26 +0530</lastBuildDate>
+    
+	<atom:link href="utkarshme.github.io/tags/elementary-os/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First pull request</title>
+      <link>utkarshme.github.io/blog/first-pull-request/</link>
+      <pubDate>Sat, 04 Mar 2017 08:08:26 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/first-pull-request/</guid>
+      <description>Since I had switched to Elementary OS and I had to tweak it, I foraged the internet for a tweak tool and found it by the name of Elementary Tweaks. Although it looked promising, it soon turned out that it didn&amp;rsquo;t really offer that many customizations. But you can&amp;rsquo;t really blame the devs for this, as the EOS is built with a principle in mind to avoid configurations as much as possible.</description>
+    </item>
+    
+    <item>
+      <title>Elementary, my dear Watson</title>
+      <link>utkarshme.github.io/blog/elementary-my-dear-watson/</link>
+      <pubDate>Fri, 10 Feb 2017 10:35:41 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/elementary-my-dear-watson/</guid>
+      <description>The new OS is in! Welcome, *drumrolls* Elementary OS 0.4 Loki. It was a hard decision really, leaving all the customizability of Ubuntu and switching to the somewhat constricted Loki. But the best part about it is that Loki doesn&amp;rsquo;t require that amount of customization. The UI looks, and feels, like a Mac but there are a few differences here and there. Actually, there are many. Nonetheless, being built from Ubuntu, the transition wasn&amp;rsquo;t much a difference, except for the escape from the Unity look that bored me to death.</description>
+    </item>
+    
+  </channel>
+</rss>

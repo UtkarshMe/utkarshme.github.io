@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/coditva
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://coditva.dev
+  * I am coditva (https://keybase.io/coditva) on keybase.
+  * I have a public key with fingerprint 7ADC CE5F 1D6F F3F8 7151  9848 5A40 E60F B40C DEBE
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01012ad4c2deec32bd2533522c6e88e85df2cbc4625dc9c631c9d6819ea69dbff4810a",
+      "fingerprint": "7adcce5f1d6ff3f8715198485a40e60fb40cdebe",
+      "host": "keybase.io",
+      "key_id": "5a40e60fb40cdebe",
+      "kid": "01012ad4c2deec32bd2533522c6e88e85df2cbc4625dc9c631c9d6819ea69dbff4810a",
+      "uid": "6c082f3a66ed44279a59c8185c765919",
+      "username": "coditva"
+    },
+    "service": {
+      "hostname": "coditva.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1559989212,
+  "expire_in": 157680000,
+  "prev": "021e5bb90b1b16863e6d2d1153aba2e3720d96fc0f489f4a382d6f01e15068f2",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUmtMHFUY3YWtIO3K04oiBaZGHiLOY2d2Zqmx8EO60pA+sLawdJ2Zewem4Azs
+TpFHeDVYCpSy1QpYW9BgqBRjLFIQpUjMNkJbEKLFGkXABMQ22loe2vDQGWJ/mPjT
+++fmfvec853v3Osyeuq89WnbZ327Nv3Yr7/6C6ezLddOFSOcDAoRSzGSDdc3mAOg
+U7FniwCxICiGYjgLTDwOIOQJnAM4SRAkjvMUpGlIk0DAeY43UTgJeIanCIxnAEVj
+DGQpBnCCYKIxlEViEUGUMqEj1yFKiiprZgHPQ1LAACUIhECbMRJjaBNNsiYUUqjA
+mVAeQA6qxCzZqTFUcxzrhHGirNbUg33d3n/g/2ffh9flKB6lcYFgKQoCkwk3MyzJ
+8DRGk7yZIhmM0YBO6JDYV6CK5mUgKvksUhKLqMV8kYdartog/wbEAZivMnMdsiLz
+co56kaUouU6LRlQKczXkq5Cz/6Nh50QJqCmqjHzocIqyhFgwFckroiaKkSTD0AyO
+4bEILMgVHdAuagjSTNGourQ+ajs1GhyDJMcx6D4O4zCKpghIARxgGEmwHItDwoyj
+gKEEHlVDYAQTS9C4+kwoBjESpWgBR7Sx8iQZsRCqTzZT1XSKmRKrHHZApMSn2oMw
+6PTeutDNEYaiH0bsofL8n3m7m3bc/3kbPLRvp/N50O9+5fle37+Uwaffqpi8rEva
+flrsSpgrezll1HjrJz7mxg0lKQJfvjvSGqlP7Y4YWvjDtCOVcQa+PvNr4gZQET21
+ciFxMo2vGnnyemdw64tf1uwaFz7sFgvKBr4vvvWGtT67ZMDz1EeV4ZUTn+7y8Upo
+mGPihjzet0xdZc4NP2W/OLJszPEbf7QxQRI7ggJOSgmE4WDkUNv+idKY5bCfwUJU
+/eWq4+/9Jg0fWXk3sSbQttQzGRVztsoacBdP37l7vnSx/WapY8umubHro6lxFwc6
+2zOufda/dK0wYW1PWS/S2eWf7jk7f8E13HnkTFY5ahSsv8ej1mlonu5RutYW/I4l
+GoiNxtqNk+Z57224Mlgg6O/ZXnszCLbU1VkzBqOf/Tq+I/m0/8Fwd05gbF/IoQ9G
+w8+5iHfeLjhrb8r8JHV4T+pg237bE9UnKr7xWLxHxXe7X2rmrF7h7bMzcY1BjwWL
+cAl7BBhse8+knGxtG2sJciddKj4Q0OOnuGJ2GhZPHejJCqzdXPbcQNjqV715D1TY
+74zdPlbpfib5SkOUq+9hW1EfR3wcsbqyN71xMlmAdPxWbqhU1+HlP34iuH9ttXDL
+TOH5ifPfuYoOHW2RgqvDmmNjLDMhGTr5hU72SkNKys1q39ka4fPmkqO26eim7FDk
+UlfIQ+WPp7l7PPJu19VHbvt23x1k+Yty/da/AQ==
+=dh4L
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/coditva
+
+==================================================================
+

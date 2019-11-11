@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yacc on Coditva</title>
+    <link>utkarshme.github.io/tags/yacc/</link>
+    <description>Recent content in yacc on Coditva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Mar 2018 15:39:35 +0530</lastBuildDate>
+    
+	<atom:link href="utkarshme.github.io/tags/yacc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Milking the Yacc</title>
+      <link>utkarshme.github.io/blog/milking-the-yacc/</link>
+      <pubDate>Fri, 16 Mar 2018 15:39:35 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/milking-the-yacc/</guid>
+      <description>So we had another assignment for our compilers construction course. We had already worked with lexical analyzers so this was a time for grammar parser generators. We had to create a BibTeX parser using Yacc/Bison. Here is a short introduction for anyone interested.
+Yacc stands for Yet Another Compiler Compiler. It is a Look-ahead, Left-to-right parser generator. To know more about what parsers are, refer to a good compilers book (The Dragon Book, obviously!</description>
+    </item>
+    
+  </channel>
+</rss>

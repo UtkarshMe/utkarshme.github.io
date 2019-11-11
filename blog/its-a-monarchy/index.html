@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    
+
+    
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
+    
+
+    <link rel="icon" type="image/png" href="utkarshme.github.io/favicon_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="utkarshme.github.io/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="utkarshme.github.io/favicon_128x128.png" sizes="128x128">
+
+    <title>
+      
+      
+         It&#39;s a monArchy! 
+      
+    </title>
+    <link rel="canonical" href="utkarshme.github.io/blog/its-a-monarchy/">
+
+    <style>
+  * {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+    color: black;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size:17px;
+    line-height:160%;
+    color:#1d1313;
+    margin:auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border:none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float:right;
+  }
+
+  pre, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 17px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
+  }
+
+  .sans,html .gist .gist-file .gist-meta {
+    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  }
+
+  .mono,pre,code,tt,p code,li code {
+    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  }
+
+  .heading,.serif,h1,h2,h3 {
+    font-family:"Old Standard TT",serif;
+  }
+
+  strong {
+    font-weight:600;
+  }
+
+  blockquote {
+    font-size: 20px;
+  }
+
+  q:before {
+    content:"\201C";
+  }
+
+  q:after {
+    content:"\201D";
+  }
+
+  del,s {
+    text-decoration:line-through;
+  }
+
+  blockquote {
+    font-family:"Old Standard TT",serif;
+    text-align:center;
+    padding:50px;
+  }
+
+  blockquote p {
+    display:inline-block;
+    font-style:italic;
+  }
+
+  blockquote:before,blockquote:after {
+    font-family:"Old Standard TT",serif;
+    content:'\201C';
+    font-size:35px;
+    color:#403c3b;
+  }
+
+  blockquote:after {
+    content:'\201D';
+  }
+
+  hr {
+    width:40%;
+    height: 1px;
+    background:#403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size:35px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h3 {
+    font-size:22px;
+    margin-top:18px;
+  }
+
+  h4 {
+    font-size:20px;
+  }
+
+  h5 {
+    font-size:19px;
+  }
+
+  h6 {
+    font-size:18px;
+  }
+
+  h1 a,h2 a,h3 a {
+    text-decoration:none;
+  }
+
+  h1,h2 {
+    margin-top:28px;
+  }
+
+  #sub-header, time {
+    color:#403c3b;
+    font-size:14px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  #sitename {
+    font-family:"Old Standard TT",serif;
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  #nav-right {
+    margin: 7px;
+  }
+
+  .posts_listing a,#nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  ul li:before {
+    content:"\00BB \0020";
+  }
+
+  .entry-content li{
+    padding: 10px;
+  }
+
+  #nav ul li:before, .posts_listing li:before {
+    content:'';
+    margin-right:0;
+  }
+
+  #content {
+    text-align:left;
+    width:100%;
+    font-size:17px;
+    padding:60px 0 0;
+    max-width:700px;
+    margin: 0 auto;
+  }
+
+  #content h1,#content h2 {
+    margin-bottom:5px;
+  }
+
+  #content h2 {
+    font-size:25px;
+  }
+
+  #content .entry-content {
+    margin-top:15px;
+  }
+
+  #content time {
+    margin-left:3px;
+  }
+
+  #content h1 {
+    font-size:30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin:0 0 50px;
+  }
+
+  .posts_listing li {
+    margin:0 0 40px 15px;
+  }
+
+  .posts_listing li a:hover,#nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    height: 30px;
+  }
+
+  #nav-left {
+    float: left;
+    margin-left: 10px;
+    margin: 10px 15px;
+  }
+
+  #nav-right {
+    float: right;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type:none;
+    display:table-cell;
+    font-size:15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float:right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family:"Old Standard TT",serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  #footer-content{
+    font-size:15px;
+    text-align: center;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:28px;
+    }
+
+    #sitename {
+      font-family:"Old Standard TT",serif;
+      font-size: 28px;
+    }
+
+    #nav-right {
+      margin: 4px;
+    }
+
+    #nav li {
+      font-size:14px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:50px;
+      font-size:17px;
+    }
+
+    #content h1 {
+      font-size:25px;
+    }
+
+    #content h2 {
+      font-size:22px;
+    }
+
+    .posts_listing li div {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:22px;
+    }
+
+    #sitename {
+      font-family:"Old Standard TT",serif;
+      font-size: 22px;
+    }
+
+    #nav-left {
+      float: none;
+      margin: 10px 0px 0px 0px;
+      text-align: center;
+    }
+
+    #nav-right {
+      float: none;
+      margin: 0px;
+      text-align: center;
+    }
+
+    #nav li {
+      font-size:12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:20px;
+      font-size:15px;
+    }
+
+    #content code {
+      font-size:14px;
+    }
+
+    #content h1 {
+      font-size:20px;
+      margin-bottom: 0px;
+    }
+
+    #content h2 {
+      font-size:18px;
+    }
+
+    .posts_listing li {
+      margin:0 0 0 15px;
+    }
+
+    .posts_listing li div{
+      font-size:15px;
+    }
+  }
+</style>
+
+
+    
+  </head>
+
+  <body>
+
+    <section id=nav>
+  <section id="nav-left">
+    <span id="sitename"><a href="utkarshme.github.io/">coditva</a></span>
+  </section>
+  <section id="nav-right">
+    <ul>
+      
+      <li><a href="utkarshme.github.io/">home</a></li>
+      
+      <li><a href="utkarshme.github.io/me">about</a></li>
+      
+      <li><a href="utkarshme.github.io/index.xml">feed</a></li>
+      
+    </ul>
+  </section>
+</section>
+
+
+
+<section id=content>
+  <h1> It&#39;s a monArchy! </h1>
+
+  <div id=sub-header>
+  
+      March 2017 · 3 minute read
+  
+
+  
+    &middot;
+
+    
+      <a href="utkarshme.github.io/tags/linux">linux</a> &middot;
+    
+      <a href="utkarshme.github.io/tags/distro">distro</a> &middot;
+    
+      <a href="utkarshme.github.io/tags/arch">arch</a> &middot;
+    
+  
+  </div>
+
+  <div class="entry-content">
+    <p><em>Why is this <a href="https://www.archlinux.org/">Arch Linux</a> such a big deal among
+people? It can&rsquo;t be that tough! I&rsquo;ll just install it and see for myself.</em></p>
+
+<p>So, here I am, installing a new Linux flavor just for the heck of it. But I
+won&rsquo;t replace my current OS just yet. Let me install it in a virtual box. After
+an easy download from their website, I have my hands on the iso image and I
+fire up my virtual box. I mistype the app name in excitement of a new Linux.
+Damn you, brain!</p>
+
+<p><img src="https://debugandstuff.files.wordpress.com/2017/03/screenshot-from-2017-03-05-023157.png" alt="screenshot-from-2017-03-05-023157" /></p>
+
+<p>It asks me to boot Arch Linux. <em>No option to install it? Weird.</em> I select the
+first option and boot into Arch Linux. After 5 secs, I find myself at the
+shell, logged in as the root. For those who don&rsquo;t know what that is, it&rsquo;s just
+a geeky way of saying that I am logged in as the system admin. Maybe a little
+complex than that. _What is happening?! Where&rsquo;s the GUI? Where&rsquo;s the installer?
+What kind of an OS is this? I hate command line._ I Google for what to do and
+am not disappointed. A
+<a href="https://www.ostechnix.com/install-arch-linux-latest-version/">wonderful article</a>
+comes to my rescue. <em>Hey, that looks kinda easy! I can work with that.</em>
+Suddenly, all this does not seem daunting anymore. My love for command line
+interface (cli) is restored. <em>Long live cli</em>! I start typing in commands one
+after another and after changing my partition table about 5 times, (yes, I
+played around and made an EFI partition, unlike what&rsquo;s given in the article)
+the OS is installed. The best thing about it was that the latest software was
+downloaded at the time of update and installed! (although it took ages to
+download, <em>sigh</em>!) A downside maybe that it can&rsquo;t be installed while offline
+but that isn&rsquo;t a problem for me.</p>
+
+<p>After reboot, I&rsquo;m shown a login shell. <em>But I never made a user? I only created
+a password for the root. Ok, got it.</em> I log in as the root user and the first
+thing I do is <em>ls</em>, followed by <em>pwd</em> (just Linux commands for listing files
+and printing the current working directory, respectively). So I have no files
+and I&rsquo;m in the root folder. Let me see the contents of the _&lsquo;/&rsquo;_ directory.
+<em>Well, the filesystem sure is Linux like.</em> I think I like it like this. Nothing
+but the shell. Also, I think I&rsquo;ll see how to get a display manager and a
+desktop environment working on this one. If I&rsquo;m successful,
+<a href="https://debugandstuff.wordpress.com/2017/02/10/elementary-my-dear-watson/">goodbye Elementary</a>!
+I check the kernel version. 4.9.11. That&rsquo;s just like 15 days old! <em>Damn, this
+thing&rsquo;s updated!</em> And yes, this is really so cool, I&rsquo;m gonna show it off to
+everyone. <em>Oh, I&rsquo;m gonna flaunt it at every possible opportunity!</em></p>
+
+<p>-ut</p>
+
+  </div>
+
+  <div id=links>
+    
+      <a class="basic-alignment left" href="utkarshme.github.io/blog/first-pull-request/">&laquo; First pull request</a>
+    
+    
+      <a class="basic-alignment left" href="utkarshme.github.io/blog/first-accepted-patch/">First accepted patch! &raquo;</a>
+    
+  </div>
+  <br /><br />
+
+  
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "utkarshme" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <br />
+  
+
+</section>
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-109205422-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <div id="footer-content">
+
+    <hr />
+
+    
+      
+      <span style="white-space: nowrap">
+        Mail / <a href="mailto:coditva@gmail.com">coditva@gmail.com</a>
+      </span>
+    
+       &nbsp; &middot; &nbsp; 
+      <span style="white-space: nowrap">
+        GitHub / <a href="https://github.com/coditva">coditva</a>
+      </span>
+    
+       &nbsp; &middot; &nbsp; 
+      <span style="white-space: nowrap">
+        Twitter / <a href="https://twitter.com/coditva">coditva</a>
+      </span>
+    
+       &nbsp; &middot; &nbsp; 
+      <span style="white-space: nowrap">
+        Resume / <a href="utkarshme.github.io/resume.pdf">pdf</a>
+      </span>
+    
+       &nbsp; &middot; &nbsp; 
+      <span style="white-space: nowrap">
+        PGP / <a href="http://keys.gnupg.net/pks/lookup?op=get&amp;search=0x5A40E60FB40CDEBE">5A40E60FB40CDEBE</a>
+      </span>
+    
+
+    <br /> <br />
+
+  </div>
+
+
+</body>
+</html>
+
+
+

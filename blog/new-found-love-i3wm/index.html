@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    
+
+    
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
+    
+
+    <link rel="icon" type="image/png" href="utkarshme.github.io/favicon_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="utkarshme.github.io/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="utkarshme.github.io/favicon_128x128.png" sizes="128x128">
+
+    <title>
+      
+      
+         New found love - i3wm 
+      
+    </title>
+    <link rel="canonical" href="utkarshme.github.io/blog/new-found-love-i3wm/">
+
+    <style>
+  * {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+    color: black;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size:17px;
+    line-height:160%;
+    color:#1d1313;
+    margin:auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border:none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float:right;
+  }
+
+  pre, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 17px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
+  }
+
+  .sans,html .gist .gist-file .gist-meta {
+    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  }
+
+  .mono,pre,code,tt,p code,li code {
+    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  }
+
+  .heading,.serif,h1,h2,h3 {
+    font-family:"Old Standard TT",serif;
+  }
+
+  strong {
+    font-weight:600;
+  }
+
+  blockquote {
+    font-size: 20px;
+  }
+
+  q:before {
+    content:"\201C";
+  }
+
+  q:after {
+    content:"\201D";
+  }
+
+  del,s {
+    text-decoration:line-through;
+  }
+
+  blockquote {
+    font-family:"Old Standard TT",serif;
+    text-align:center;
+    padding:50px;
+  }
+
+  blockquote p {
+    display:inline-block;
+    font-style:italic;
+  }
+
+  blockquote:before,blockquote:after {
+    font-family:"Old Standard TT",serif;
+    content:'\201C';
+    font-size:35px;
+    color:#403c3b;
+  }
+
+  blockquote:after {
+    content:'\201D';
+  }
+
+  hr {
+    width:40%;
+    height: 1px;
+    background:#403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size:35px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h3 {
+    font-size:22px;
+    margin-top:18px;
+  }
+
+  h4 {
+    font-size:20px;
+  }
+
+  h5 {
+    font-size:19px;
+  }
+
+  h6 {
+    font-size:18px;
+  }
+
+  h1 a,h2 a,h3 a {
+    text-decoration:none;
+  }
+
+  h1,h2 {
+    margin-top:28px;
+  }
+
+  #sub-header, time {
+    color:#403c3b;
+    font-size:14px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  #sitename {
+    font-family:"Old Standard TT",serif;
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  #nav-right {
+    margin: 7px;
+  }
+
+  .posts_listing a,#nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  ul li:before {
+    content:"\00BB \0020";
+  }
+
+  .entry-content li{
+    padding: 10px;
+  }
+
+  #nav ul li:before, .posts_listing li:before {
+    content:'';
+    margin-right:0;
+  }
+
+  #content {
+    text-align:left;
+    width:100%;
+    font-size:17px;
+    padding:60px 0 0;
+    max-width:700px;
+    margin: 0 auto;
+  }
+
+  #content h1,#content h2 {
+    margin-bottom:5px;
+  }
+
+  #content h2 {
+    font-size:25px;
+  }
+
+  #content .entry-content {
+    margin-top:15px;
+  }
+
+  #content time {
+    margin-left:3px;
+  }
+
+  #content h1 {
+    font-size:30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin:0 0 50px;
+  }
+
+  .posts_listing li {
+    margin:0 0 40px 15px;
+  }
+
+  .posts_listing li a:hover,#nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    height: 30px;
+  }
+
+  #nav-left {
+    float: left;
+    margin-left: 10px;
+    margin: 10px 15px;
+  }
+
+  #nav-right {
+    float: right;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type:none;
+    display:table-cell;
+    font-size:15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float:right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family:"Old Standard TT",serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  #footer-content{
+    font-size:15px;
+    text-align: center;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:28px;
+    }
+
+    #sitename {
+      font-family:"Old Standard TT",serif;
+      font-size: 28px;
+    }
+
+    #nav-right {
+      margin: 4px;
+    }
+
+    #nav li {
+      font-size:14px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:50px;
+      font-size:17px;
+    }
+
+    #content h1 {
+      font-size:25px;
+    }
+
+    #content h2 {
+      font-size:22px;
+    }
+
+    .posts_listing li div {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:22px;
+    }
+
+    #sitename {
+      font-family:"Old Standard TT",serif;
+      font-size: 22px;
+    }
+
+    #nav-left {
+      float: none;
+      margin: 10px 0px 0px 0px;
+      text-align: center;
+    }
+
+    #nav-right {
+      float: none;
+      margin: 0px;
+      text-align: center;
+    }
+
+    #nav li {
+      font-size:12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:20px;
+      font-size:15px;
+    }
+
+    #content code {
+      font-size:14px;
+    }
+
+    #content h1 {
+      font-size:20px;
+      margin-bottom: 0px;
+    }
+
+    #content h2 {
+      font-size:18px;
+    }
+
+    .posts_listing li {
+      margin:0 0 0 15px;
+    }
+
+    .posts_listing li div{
+      font-size:15px;
+    }
+  }
+</style>
+
+
+    
+  </head>
+
+  <body>
+
+    <section id=nav>
+  <section id="nav-left">
+    <span id="sitename"><a href="utkarshme.github.io/">coditva</a></span>
+  </section>
+  <section id="nav-right">
+    <ul>
+      
+      <li><a href="utkarshme.github.io/">home</a></li>
+      
+      <li><a href="utkarshme.github.io/me">about</a></li>
+      
+      <li><a href="utkarshme.github.io/index.xml">feed</a></li>
+      
+    </ul>
+  </section>
+</section>
+
+
+
+<section id=content>
+  <h1> New found love - i3wm </h1>
+
+  <div id=sub-header>
+  
+      October 2017 · 2 minute read
+  
+
+  
+    &middot;
+
+    
+      <a href="utkarshme.github.io/tags/linux">linux</a> &middot;
+    
+      <a href="utkarshme.github.io/tags/wm">wm</a> &middot;
+    
+  
+  </div>
+
+  <div class="entry-content">
+    <p>So I had enough of Gnome breaking every now and then, filling up my RAM with
+all sorts of unwanted services and decided to switch to something new. I wanted
+something that would reduce the whole dependency cycle; something which does
+not make you choose between eye-candy and performance.</p>
+
+<p>And <a href="https://i3wm.org/">i3wm</a> caught my eye, which claims to be &ldquo;targeted at
+advanced users and developers.&rdquo; I looked around for some screenshots for how
+does it look and was surprised to find that every one of them was drastically
+different from the other.</p>
+
+<p>I3wm is a tiling manager and not a desktop environment which makes it lighter
+and thus faster than Gnome or KDE or any other desktop environment.</p>
+
+<blockquote>
+<p>What do we do when we want any information regarding a Linux?</p>
+
+<p><strong>Arch Wiki!</strong></p>
+</blockquote>
+
+<p>The <a href="https://wiki.archlinux.org/index.php/i3">Arch Wiki</a> page is pretty well
+written and gets you started with enough information to get it up and running.
+The <a href="https://i3wm.org/docs/">docs</a> page of i3wm is quite rich and provides all
+you need to know to fully configure your desktop. <em>The only limit is your
+creativity!</em></p>
+
+<p><br>
+Here&rsquo;s what the setup looks like:<br>
+<img src="https://raw.githubusercontent.com/coditva/i3-config/master/screenshot.png" alt="My i3 setup" title="My i3 setup" /></p>
+
+<p>I would recommend using <a href="https://github.com/Airblader/i3">i3-gaps</a> which is a
+fork of i3 with some enhancements like the gaps between windows.</p>
+
+<p>What I have come to love about i3 is how fast I can navigate between windows. I
+hate using my touchpad unless absolutely necessary and that is exactly what i3
+eliminated. I don&rsquo;t have to even think about it and all work is done by my
+muscle memory. I have my key bindings close to Vim which makes the task even
+more easier.</p>
+
+<p>I have put all the setup configuration
+<a href="https://github.com/coditva/i3-config">here</a>. Because I am never satisfied
+with a configuration (hehe), I will keep updating it till I don&rsquo;t switch to
+another display manager.</p>
+
+<p>-ut</p>
+
+  </div>
+
+  <div id=links>
+    
+      <a class="basic-alignment left" href="utkarshme.github.io/blog/the-internship-aiims-bhopal/">&laquo; The Internship @ AIIMS, Bhopal</a>
+    
+    
+      <a class="basic-alignment left" href="utkarshme.github.io/blog/implementing-a-plugin-architecture-in-c/">Implementing a plugin architecture in C &raquo;</a>
+    
+  </div>
+  <br /><br />
+
+  
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "utkarshme" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <br />
+  
+
+</section>
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-109205422-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <div id="footer-content">
+
+    <hr />
+
+    
+      
+      <span style="white-space: nowrap">
+        Mail / <a href="mailto:coditva@gmail.com">coditva@gmail.com</a>
+      </span>
+    
+       &nbsp; &middot; &nbsp; 
+      <span style="white-space: nowrap">
+        GitHub / <a href="https://github.com/coditva">coditva</a>
+      </span>
+    
+       &nbsp; &middot; &nbsp; 
+      <span style="white-space: nowrap">
+        Twitter / <a href="https://twitter.com/coditva">coditva</a>
+      </span>
+    
+       &nbsp; &middot; &nbsp; 
+      <span style="white-space: nowrap">
+        Resume / <a href="utkarshme.github.io/resume.pdf">pdf</a>
+      </span>
+    
+       &nbsp; &middot; &nbsp; 
+      <span style="white-space: nowrap">
+        PGP / <a href="http://keys.gnupg.net/pks/lookup?op=get&amp;search=0x5A40E60FB40CDEBE">5A40E60FB40CDEBE</a>
+      </span>
+    
+
+    <br /> <br />
+
+  </div>
+
+
+</body>
+</html>
+
+
+

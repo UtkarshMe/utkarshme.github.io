@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Coditva</title>
+    <link>utkarshme.github.io/tags/</link>
+    <description>Recent content in Tags on Coditva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Aug 2018 07:33:46 +0530</lastBuildDate>
+    
+	<atom:link href="utkarshme.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GSoC</title>
+      <link>utkarshme.github.io/tags/gsoc/</link>
+      <pubDate>Tue, 14 Aug 2018 07:33:46 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/gsoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neovim</title>
+      <link>utkarshme.github.io/tags/neovim/</link>
+      <pubDate>Tue, 14 Aug 2018 07:33:46 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/neovim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>utkarshme.github.io/tags/c/</link>
+      <pubDate>Tue, 15 May 2018 11:03:34 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>utkarshme.github.io/tags/vim/</link>
+      <pubDate>Tue, 15 May 2018 11:03:34 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>artificial intelligence</title>
+      <link>utkarshme.github.io/tags/artificial-intelligence/</link>
+      <pubDate>Wed, 18 Apr 2018 12:45:54 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>how-to</title>
+      <link>utkarshme.github.io/tags/how-to/</link>
+      <pubDate>Wed, 18 Apr 2018 12:45:54 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/how-to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>utkarshme.github.io/tags/python/</link>
+      <pubDate>Wed, 18 Apr 2018 12:45:54 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compilers</title>
+      <link>utkarshme.github.io/tags/compilers/</link>
+      <pubDate>Fri, 16 Mar 2018 15:39:35 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/compilers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lex</title>
+      <link>utkarshme.github.io/tags/lex/</link>
+      <pubDate>Fri, 16 Mar 2018 15:39:35 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/lex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yacc</title>
+      <link>utkarshme.github.io/tags/yacc/</link>
+      <pubDate>Fri, 16 Mar 2018 15:39:35 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/yacc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>utkarshme.github.io/tags/linux/</link>
+      <pubDate>Mon, 16 Oct 2017 18:04:46 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wm</title>
+      <link>utkarshme.github.io/tags/wm/</link>
+      <pubDate>Mon, 16 Oct 2017 18:04:46 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/wm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nodejs</title>
+      <link>utkarshme.github.io/tags/nodejs/</link>
+      <pubDate>Tue, 13 Jun 2017 11:11:22 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webdev</title>
+      <link>utkarshme.github.io/tags/webdev/</link>
+      <pubDate>Tue, 13 Jun 2017 11:11:22 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/webdev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gnome</title>
+      <link>utkarshme.github.io/tags/gnome/</link>
+      <pubDate>Mon, 13 Mar 2017 05:55:22 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/gnome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>patch</title>
+      <link>utkarshme.github.io/tags/patch/</link>
+      <pubDate>Mon, 13 Mar 2017 05:55:22 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/patch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arch</title>
+      <link>utkarshme.github.io/tags/arch/</link>
+      <pubDate>Sun, 05 Mar 2017 03:15:20 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/arch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distro</title>
+      <link>utkarshme.github.io/tags/distro/</link>
+      <pubDate>Sun, 05 Mar 2017 03:15:20 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/distro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elementary os</title>
+      <link>utkarshme.github.io/tags/elementary-os/</link>
+      <pubDate>Sat, 04 Mar 2017 08:08:26 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/elementary-os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bitsnet</title>
+      <link>utkarshme.github.io/tags/bitsnet/</link>
+      <pubDate>Sat, 04 Feb 2017 11:48:22 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/bitsnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>utkarshme.github.io/tags/shell/</link>
+      <pubDate>Sat, 04 Feb 2017 11:48:22 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

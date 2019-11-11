@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>how-to on Coditva</title>
+    <link>utkarshme.github.io/tags/how-to/</link>
+    <description>Recent content in how-to on Coditva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 Apr 2018 12:45:54 +0530</lastBuildDate>
+    
+	<atom:link href="utkarshme.github.io/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning Agent That Plays Tic-Tac-Toe</title>
+      <link>utkarshme.github.io/blog/learning-agent-that-plays-tic-tac-toe/</link>
+      <pubDate>Wed, 18 Apr 2018 12:45:54 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/learning-agent-that-plays-tic-tac-toe/</guid>
+      <description>Defining the problem The problem is to create a learning agent that plays Tic-Tac-Toe. The accompanying implementation can be found here.
+The knowledge base Our agent starts with some knowledge about the game. It knows:
+ Three x or o in a row end the game in a win/loss respectively. No boxes left end the game in a draw. Always try to win. If not possible, try to not lose.</description>
+    </item>
+    
+    <item>
+      <title>Milking the Yacc</title>
+      <link>utkarshme.github.io/blog/milking-the-yacc/</link>
+      <pubDate>Fri, 16 Mar 2018 15:39:35 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/milking-the-yacc/</guid>
+      <description>So we had another assignment for our compilers construction course. We had already worked with lexical analyzers so this was a time for grammar parser generators. We had to create a BibTeX parser using Yacc/Bison. Here is a short introduction for anyone interested.
+Yacc stands for Yet Another Compiler Compiler. It is a Look-ahead, Left-to-right parser generator. To know more about what parsers are, refer to a good compilers book (The Dragon Book, obviously!</description>
+    </item>
+    
+    <item>
+      <title>Learning Flex</title>
+      <link>utkarshme.github.io/blog/learning-flex/</link>
+      <pubDate>Wed, 14 Feb 2018 17:56:46 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/learning-flex/</guid>
+      <description>So we had this assignment for our Compilers Construction course to write a program to generated beautified HTML file for a given C program. The stupid approach is to write a lexical analyzer from scratch with might take ages. The intelligent (and accepted) approach is to use a lexical analyzer generator and this is where Flex comes into picture.
+Flex is a FOSS alternative to the POSIX lexical analyzer generator Lex and generates a lexical analyzer program from the vocabulary you specify for the language you&amp;rsquo;re writing a compiler for.</description>
+    </item>
+    
+    <item>
+      <title>Implementing a plugin architecture in C</title>
+      <link>utkarshme.github.io/blog/implementing-a-plugin-architecture-in-c/</link>
+      <pubDate>Mon, 13 Nov 2017 15:29:17 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/implementing-a-plugin-architecture-in-c/</guid>
+      <description>Recently I was working on a project where I had decided to make the application extensible by use of plugins (or add-ons). A plugin is a piece of code which is not part of the core app and is not required for proper working of it; it provides with additional functionality and allows third-party developers to extend the app.
+The developer who makes the plugin infrastructure is required to provide a way to:</description>
+    </item>
+    
+  </channel>
+</rss>

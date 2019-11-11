@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coditva</title>
+    <link>utkarshme.github.io/</link>
+    <description>Recent content on Coditva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Jan 2019 20:51:09 +0530</lastBuildDate>
+    
+	<atom:link href="utkarshme.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configure Linux Console Font</title>
+      <link>utkarshme.github.io/blog/configure-linux-console-font/</link>
+      <pubDate>Mon, 07 Jan 2019 20:51:09 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/configure-linux-console-font/</guid>
+      <description>Linux provides a way to set fonts and keymaps on the virtual consoles (tty[1-7]). I&amp;rsquo;ll focus on fonts in this post. The available fonts can be found in /usr/share/kbd/consolefonts/ and can be set as follows:
+If there is a file in /usr/share/kbd/consolefonts/ named ter-powerline-v18n.psf.gz, you can set it as the terminal font for the current console by running the following command:
+setfont ter-powerline-v18n Note that this won&amp;rsquo;t work in a terminal emulator.</description>
+    </item>
+    
+    <item>
+      <title>Progress at the end of GSoC with Neovim</title>
+      <link>utkarshme.github.io/blog/progress-at-the-end-of-gsoc-with-neovim/</link>
+      <pubDate>Tue, 14 Aug 2018 07:33:46 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/progress-at-the-end-of-gsoc-with-neovim/</guid>
+      <description>As we come to the end of three months of the coding extravaganza as a part of GSoC, I would like to share the progress we made so far and what is left to do as a part of Improving the UI protocol in Neovim with Björn Linse as my mentor.
+What is in place  Grid based updates This post describes the grid-based updates in Neovim. The work for this is almost complete with tests and documentation in place.</description>
+    </item>
+    
+    <item>
+      <title>Window Grid Updates in Neovim</title>
+      <link>utkarshme.github.io/blog/window-grid-updates-in-neovim/</link>
+      <pubDate>Thu, 28 Jun 2018 22:43:26 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/window-grid-updates-in-neovim/</guid>
+      <description>This post is in continuation with this post.
+Neovim has come to be a very hackable, developer friendly version of Vim. It actually is what their website claims to be: literally the future of vim and Vim-fork focused on extensibility and usability. One of the goals of nvim is to allow UIs to set different grid-sizes for each window and receive grid-based events.
+Why do we need grid-based updates and different grid-sizes than what nvim sets?</description>
+    </item>
+    
+    <item>
+      <title>Progress After Two Weeks Into GSoC with Neovim</title>
+      <link>utkarshme.github.io/blog/progress-after-two-weeks-into-gsoc-with-neovim/</link>
+      <pubDate>Thu, 31 May 2018 01:07:50 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/progress-after-two-weeks-into-gsoc-with-neovim/</guid>
+      <description>This post is in continuation with this post.
+Two weeks have passed since the coding period began for Google Summer of Code on 14th May. After setting up my system in a room with a loud music system, I officially began coding.
+The progress so far The first task that I needed to do was to break up the one global grid used for screen-handling into smaller per-window grids which would later let external UIs manage them individually.</description>
+    </item>
+    
+    <item>
+      <title>Google Summer of Code with Neovim</title>
+      <link>utkarshme.github.io/blog/google-summer-of-code-with-neovim/</link>
+      <pubDate>Tue, 15 May 2018 11:03:34 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/google-summer-of-code-with-neovim/</guid>
+      <description>So, I got selected as a student applicant for the Google Summer of Code (or GSoC) and will be working with Neovim over the course of next three months!
+Neovim is a fork of Vim, one of the most loved text editors that is used not only by the coding community but people from all over walks of life. I have been a devoted worshipper of Vim for about two years now and have fought in the Editor wars whenever the need arose.</description>
+    </item>
+    
+    <item>
+      <title>Learning Agent That Plays Tic-Tac-Toe</title>
+      <link>utkarshme.github.io/blog/learning-agent-that-plays-tic-tac-toe/</link>
+      <pubDate>Wed, 18 Apr 2018 12:45:54 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/learning-agent-that-plays-tic-tac-toe/</guid>
+      <description>Defining the problem The problem is to create a learning agent that plays Tic-Tac-Toe. The accompanying implementation can be found here.
+The knowledge base Our agent starts with some knowledge about the game. It knows:
+ Three x or o in a row end the game in a win/loss respectively. No boxes left end the game in a draw. Always try to win. If not possible, try to not lose.</description>
+    </item>
+    
+    <item>
+      <title>Milking the Yacc</title>
+      <link>utkarshme.github.io/blog/milking-the-yacc/</link>
+      <pubDate>Fri, 16 Mar 2018 15:39:35 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/milking-the-yacc/</guid>
+      <description>So we had another assignment for our compilers construction course. We had already worked with lexical analyzers so this was a time for grammar parser generators. We had to create a BibTeX parser using Yacc/Bison. Here is a short introduction for anyone interested.
+Yacc stands for Yet Another Compiler Compiler. It is a Look-ahead, Left-to-right parser generator. To know more about what parsers are, refer to a good compilers book (The Dragon Book, obviously!</description>
+    </item>
+    
+    <item>
+      <title>Learning Flex</title>
+      <link>utkarshme.github.io/blog/learning-flex/</link>
+      <pubDate>Wed, 14 Feb 2018 17:56:46 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/learning-flex/</guid>
+      <description>So we had this assignment for our Compilers Construction course to write a program to generated beautified HTML file for a given C program. The stupid approach is to write a lexical analyzer from scratch with might take ages. The intelligent (and accepted) approach is to use a lexical analyzer generator and this is where Flex comes into picture.
+Flex is a FOSS alternative to the POSIX lexical analyzer generator Lex and generates a lexical analyzer program from the vocabulary you specify for the language you&amp;rsquo;re writing a compiler for.</description>
+    </item>
+    
+    <item>
+      <title>Implementing a plugin architecture in C</title>
+      <link>utkarshme.github.io/blog/implementing-a-plugin-architecture-in-c/</link>
+      <pubDate>Mon, 13 Nov 2017 15:29:17 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/implementing-a-plugin-architecture-in-c/</guid>
+      <description>Recently I was working on a project where I had decided to make the application extensible by use of plugins (or add-ons). A plugin is a piece of code which is not part of the core app and is not required for proper working of it; it provides with additional functionality and allows third-party developers to extend the app.
+The developer who makes the plugin infrastructure is required to provide a way to:</description>
+    </item>
+    
+    <item>
+      <title>New found love - i3wm</title>
+      <link>utkarshme.github.io/blog/new-found-love-i3wm/</link>
+      <pubDate>Mon, 16 Oct 2017 18:04:46 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/new-found-love-i3wm/</guid>
+      <description>So I had enough of Gnome breaking every now and then, filling up my RAM with all sorts of unwanted services and decided to switch to something new. I wanted something that would reduce the whole dependency cycle; something which does not make you choose between eye-candy and performance.
+And i3wm caught my eye, which claims to be &amp;ldquo;targeted at advanced users and developers.&amp;rdquo; I looked around for some screenshots for how does it look and was surprised to find that every one of them was drastically different from the other.</description>
+    </item>
+    
+    <item>
+      <title>The Internship @ AIIMS, Bhopal</title>
+      <link>utkarshme.github.io/blog/the-internship-aiims-bhopal/</link>
+      <pubDate>Tue, 13 Jun 2017 11:11:22 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/the-internship-aiims-bhopal/</guid>
+      <description>As is the tradition of BITS, every second yearite is expected to go to an internship to a place and a organization allotted by the institute. I was given AIIMS, Bhopal a budding, new part of the prestigious AIIMS brand. But the problem was it being a hospital! What was I expected to do at a goddamn hospital?! Write code to cure cancer? (interesting&amp;hellip; Maybe, someday?)
+The first few days were pretty useless.</description>
+    </item>
+    
+    <item>
+      <title>Learn Vim, the fun way</title>
+      <link>utkarshme.github.io/blog/learn-vim-the-fun-way/</link>
+      <pubDate>Thu, 27 Apr 2017 10:41:45 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/learn-vim-the-fun-way/</guid>
+      <description>Okay, it&amp;rsquo;s been a while since I last wrote. I got a little busy with my acads is all. But not to worry because I have a new project at hand! Woohoo! And it&amp;rsquo;s finally what I really like to do; low level shiz and not WebDev.
+Enough beating around the bush, let me introduce you to, &amp;lsquo;A Vim Story&amp;rsquo;, the new best way to learn Vim. The idea is to make a game out of it and let the user enjoy the steep learning curve, rather than dread it like I did.</description>
+    </item>
+    
+    <item>
+      <title>First accepted patch!</title>
+      <link>utkarshme.github.io/blog/first-accepted-patch/</link>
+      <pubDate>Mon, 13 Mar 2017 05:55:22 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/first-accepted-patch/</guid>
+      <description>This is so damn exciting! My code is going into the awesome repositories of Gnome! I have always dreamt of coding for something big, something significant and this was the first successful attempt. It was for the Gnome Todo app which I use on a daily basis. I never thought I would one day get to add something to it! Although the bug was really minor and required a one-line change, the feeling and later the comment of the maintainer (Sweet and short.</description>
+    </item>
+    
+    <item>
+      <title>It&#39;s a monArchy!</title>
+      <link>utkarshme.github.io/blog/its-a-monarchy/</link>
+      <pubDate>Sun, 05 Mar 2017 03:15:20 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/its-a-monarchy/</guid>
+      <description>Why is this Arch Linux such a big deal among people? It can&amp;rsquo;t be that tough! I&amp;rsquo;ll just install it and see for myself.
+So, here I am, installing a new Linux flavor just for the heck of it. But I won&amp;rsquo;t replace my current OS just yet. Let me install it in a virtual box. After an easy download from their website, I have my hands on the iso image and I fire up my virtual box.</description>
+    </item>
+    
+    <item>
+      <title>First pull request</title>
+      <link>utkarshme.github.io/blog/first-pull-request/</link>
+      <pubDate>Sat, 04 Mar 2017 08:08:26 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/first-pull-request/</guid>
+      <description>Since I had switched to Elementary OS and I had to tweak it, I foraged the internet for a tweak tool and found it by the name of Elementary Tweaks. Although it looked promising, it soon turned out that it didn&amp;rsquo;t really offer that many customizations. But you can&amp;rsquo;t really blame the devs for this, as the EOS is built with a principle in mind to avoid configurations as much as possible.</description>
+    </item>
+    
+    <item>
+      <title>Elementary, my dear Watson</title>
+      <link>utkarshme.github.io/blog/elementary-my-dear-watson/</link>
+      <pubDate>Fri, 10 Feb 2017 10:35:41 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/elementary-my-dear-watson/</guid>
+      <description>The new OS is in! Welcome, *drumrolls* Elementary OS 0.4 Loki. It was a hard decision really, leaving all the customizability of Ubuntu and switching to the somewhat constricted Loki. But the best part about it is that Loki doesn&amp;rsquo;t require that amount of customization. The UI looks, and feels, like a Mac but there are a few differences here and there. Actually, there are many. Nonetheless, being built from Ubuntu, the transition wasn&amp;rsquo;t much a difference, except for the escape from the Unity look that bored me to death.</description>
+    </item>
+    
+    <item>
+      <title>First release!</title>
+      <link>utkarshme.github.io/blog/first-release/</link>
+      <pubDate>Sat, 04 Feb 2017 11:48:22 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/first-release/</guid>
+      <description>It was a pain in the ass, logging into the internet portal again and again and again. A script was needed and it was needed badly. Presenting the BitsnetLogin v1.0.0. A complete cli program in itself with a launcher app. The options in the current release include (but are not limited to) logging into the Hostel LAN and WiFi and Academic block wifi. The app is designed for unix/linux based systems only for the moment.</description>
+    </item>
+    
+    <item>
+      <title>Initial commit</title>
+      <link>utkarshme.github.io/blog/initial-commit/</link>
+      <pubDate>Fri, 03 Feb 2017 02:38:18 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/initial-commit/</guid>
+      <description>So the customary Hello world was in line. There. I said it. The program seems to be working fine. Anyway, this first post is basically for describing what and why. The motivation and reason for this is not a very grand one, but nonetheless important. This blog serves as a journal, for me and for whoever it may concern, of stuff I explore and venture into during my days on this planet (and any other planet).</description>
+    </item>
+    
+    <item>
+      <title>Utkarsh Maheshwari</title>
+      <link>utkarshme.github.io/me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>utkarshme.github.io/me/</guid>
+      <description>Introvert, systems programmer, reader, amateur photographer, wannabe chef, bass player, nighttime philosopher. I graduated from BITS Pilani in 2019 with the major in Computer Science.
+I have worked as an intern at AIIMS, Bhopal and PBS Professional team at Altair, Bangalore. Currently I&amp;rsquo;m employed at Postman, Bangalore as a full-time software engineer.
+I spent some time on front-end dev before switching to back-end. Currently, I am working as a systems programmer and trying my hand at OS development.</description>
+    </item>
+    
+  </channel>
+</rss>

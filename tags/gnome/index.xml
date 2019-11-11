@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gnome on Coditva</title>
+    <link>utkarshme.github.io/tags/gnome/</link>
+    <description>Recent content in gnome on Coditva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Mar 2017 05:55:22 +0530</lastBuildDate>
+    
+	<atom:link href="utkarshme.github.io/tags/gnome/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First accepted patch!</title>
+      <link>utkarshme.github.io/blog/first-accepted-patch/</link>
+      <pubDate>Mon, 13 Mar 2017 05:55:22 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/first-accepted-patch/</guid>
+      <description>This is so damn exciting! My code is going into the awesome repositories of Gnome! I have always dreamt of coding for something big, something significant and this was the first successful attempt. It was for the Gnome Todo app which I use on a daily basis. I never thought I would one day get to add something to it! Although the bug was really minor and required a one-line change, the feeling and later the comment of the maintainer (Sweet and short.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shell on Coditva</title>
+    <link>utkarshme.github.io/tags/shell/</link>
+    <description>Recent content in shell on Coditva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 04 Feb 2017 11:48:22 +0530</lastBuildDate>
+    
+	<atom:link href="utkarshme.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First release!</title>
+      <link>utkarshme.github.io/blog/first-release/</link>
+      <pubDate>Sat, 04 Feb 2017 11:48:22 +0530</pubDate>
+      
+      <guid>utkarshme.github.io/blog/first-release/</guid>
+      <description>It was a pain in the ass, logging into the internet portal again and again and again. A script was needed and it was needed badly. Presenting the BitsnetLogin v1.0.0. A complete cli program in itself with a launcher app. The options in the current release include (but are not limited to) logging into the Hostel LAN and WiFi and Academic block wifi. The app is designed for unix/linux based systems only for the moment.</description>
+    </item>
+    
+  </channel>
+</rss>
